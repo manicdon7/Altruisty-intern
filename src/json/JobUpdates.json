@@ -1,0 +1,47 @@
+[
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "company": "Infosys",
+      "location": "Chennai, Tamil Nadu",
+      "description": "Develop and maintain web applications using React.",
+      "domain": "IT",
+      "state": "Tamil Nadu",
+      "introduction": "Join Infosys as a Frontend Developer and work on exciting web applications.",
+      "image": "https://images.unsplash.com/photo-1618477388954-7852f32655ec?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZnJvbnQlMjBlbmQlMjBkZXZlbG9wZXJ8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": 2,
+      "title": "Data Scientist",
+      "company": "TCS",
+      "location": "Mumbai, Maharashtra",
+      "description": "Analyze and interpret complex data sets.",
+      "domain": "IT",
+      "state": "Maharashtra",
+      "introduction": "TCS is looking for a Data Scientist to analyze and interpret data.",
+      "image": "https://images.unsplash.com/photo-1599658880436-c61792e70672?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGF0YSUyMHNjaWVudGlzdHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": 3,
+      "title": "Digital Marketer",
+      "company": "Wipro",
+      "location": "Bangalore, Karnataka",
+      "description": "Create and manage marketing campaigns.",
+      "domain": "Marketing",
+      "state": "Karnataka",
+      "introduction": "Wipro is hiring a Digital Marketer to manage their campaigns.",
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGlnaXRhbCUyMG1hcmtldGluZ3xlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": 4,
+      "title": "UI/UX Designer",
+      "company": "Accenture",
+      "location": "Hyderabad, Telangana",
+      "description": "Design and enhance user interfaces and experiences.",
+      "domain": "Design",
+      "state": "Telangana",
+      "introduction": "Accenture seeks a UI/UX Designer for their team.",
+      "image": "https://images.unsplash.com/photo-1648109941110-d30f859426ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VUklMkZVWCUyMERlc2lnbmVyfGVufDB8fDB8fHww"
+    }
+  ]
+  

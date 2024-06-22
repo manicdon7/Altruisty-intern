@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "name": "Software Engineering Intern",
+      "description": "Assist in developing web applications.",
+      "package": "$20,000",
+      "requirements": "Currently pursuing a degree in Computer Science"
+    },
+    {
+      "id": 2,
+      "name": "Data Science Intern",
+      "description": "Work with data to uncover insights and patterns.",
+      "package": "$18,000",
+      "requirements": "Currently pursuing a degree in Data Science or related field"
+    },
+    {
+      "id": 3,
+      "name": "Product Management Intern",
+      "description": "Support the product team in market research and analysis.",
+      "package": "$22,000",
+      "requirements": "Currently pursuing a degree in Business or related field"
+    },
+    {
+      "id": 4,
+      "name": "UX Design Intern",
+      "description": "Help design user interfaces that enhance user experience.",
+      "package": "$19,000",
+      "requirements": "Currently pursuing a degree in Design or related field"
+    },
+    {
+      "id": 5,
+      "name": "DevOps Intern",
+      "description": "Assist in maintaining and improving infrastructure and deployment processes.",
+      "package": "$21,000",
+      "requirements": "Currently pursuing a degree in Computer Science or related field"
+    },
+    {
+      "id": 6,
+      "name": "Marketing Intern",
+      "description": "Support marketing campaigns and social media activities.",
+      "package": "$17,000",
+      "requirements": "Currently pursuing a degree in Marketing or related field"
+    },
+    {
+      "id": 7,
+      "name": "Sales Intern",
+      "description": "Assist the sales team with lead generation and customer engagement.",
+      "package": "$15,000",
+      "requirements": "Currently pursuing a degree in Business or related field"
+    },
+    {
+      "id": 8,
+      "name": "Customer Support Intern",
+      "description": "Provide support to customers and handle inquiries.",
+      "package": "$16,000",
+      "requirements": "Currently pursuing a degree in any field"
+    },
+    {
+      "id": 9,
+      "name": "Network Administration Intern",
+      "description": "Assist in maintaining the company's network infrastructure.",
+      "package": "$18,500",
+      "requirements": "Currently pursuing a degree in Information Technology or related field"
+    },
+    {
+      "id": 10,
+      "name": "Human Resources Intern",
+      "description": "Support the HR team with recruitment and employee engagement activities.",
+      "package": "$20,000",
+      "requirements": "Currently pursuing a degree in Human Resources or related field"
+    }
+  ]
+  

@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "name": "Software Engineer",
+      "description": "Develop and maintain web applications.",
+      "package": "$120,000",
+      "requirements": "Experience with React and Node.js"
+    },
+    {
+      "id": 2,
+      "name": "Data Scientist",
+      "description": "Analyze data to gain insights and make informed decisions.",
+      "package": "$110,000",
+      "requirements": "Experience with Python and machine learning"
+    },
+    {
+      "id": 3,
+      "name": "Product Manager",
+      "description": "Lead product development from conception to launch.",
+      "package": "$130,000",
+      "requirements": "Experience in product management and agile methodologies"
+    },
+    {
+      "id": 4,
+      "name": "UX Designer",
+      "description": "Design user interfaces that are intuitive and user-friendly.",
+      "package": "$90,000",
+      "requirements": "Experience with design tools such as Figma or Sketch"
+    },
+    {
+      "id": 5,
+      "name": "DevOps Engineer",
+      "description": "Maintain and improve the infrastructure and deployment processes.",
+      "package": "$115,000",
+      "requirements": "Experience with AWS and CI/CD pipelines"
+    },
+    {
+      "id": 6,
+      "name": "Marketing Manager",
+      "description": "Develop and execute marketing strategies to drive growth.",
+      "package": "$100,000",
+      "requirements": "Experience with digital marketing and SEO"
+    },
+    {
+      "id": 7,
+      "name": "Sales Representative",
+      "description": "Sell products and services to potential customers.",
+      "package": "$85,000",
+      "requirements": "Experience in sales and excellent communication skills"
+    },
+    {
+      "id": 8,
+      "name": "Customer Support Specialist",
+      "description": "Provide assistance and support to customers.",
+      "package": "$50,000",
+      "requirements": "Experience in customer service and problem-solving skills"
+    },
+    {
+      "id": 9,
+      "name": "Network Administrator",
+      "description": "Maintain and manage the company's network infrastructure.",
+      "package": "$95,000",
+      "requirements": "Experience with network protocols and security"
+    },
+    {
+      "id": 10,
+      "name": "HR Manager",
+      "description": "Oversee the HR department and manage employee relations.",
+      "package": "$105,000",
+      "requirements": "Experience in HR management and labor laws"
+    }
+  ]
+  

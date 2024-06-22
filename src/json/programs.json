@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "name": "Full Stack Developer Program",
+      "description": "Intensive 6-month program to become a full-stack developer.",
+      "package": "Certification upon completion",
+      "requirements": "Basic knowledge of programming"
+    },
+    {
+      "id": 2,
+      "name": "Data Science Bootcamp",
+      "description": "3-month program focused on data analysis and machine learning.",
+      "package": "Certification upon completion",
+      "requirements": "Basic knowledge of statistics and programming"
+    },
+    {
+      "id": 3,
+      "name": "Digital Marketing Course",
+      "description": "Comprehensive course on digital marketing strategies and tools.",
+      "package": "Certification upon completion",
+      "requirements": "Interest in marketing"
+    },
+    {
+      "id": 4,
+      "name": "Cybersecurity Program",
+      "description": "4-month program on network security and ethical hacking.",
+      "package": "Certification upon completion",
+      "requirements": "Basic knowledge of networking"
+    },
+    {
+      "id": 5,
+      "name": "UX/UI Design Course",
+      "description": "Hands-on course on user experience and interface design.",
+      "package": "Certification upon completion",
+      "requirements": "Basic knowledge of design principles"
+    },
+    {
+      "id": 6,
+      "name": "AI and Machine Learning Program",
+      "description": "5-month program on AI development and machine learning models.",
+      "package": "Certification upon completion",
+      "requirements": "Basic knowledge of programming and mathematics"
+    },
+    {
+      "id": 7,
+      "name": "Project Management Professional (PMP)",
+      "description": "2-month program to prepare for the PMP certification.",
+      "package": "PMP Certification",
+      "requirements": "Experience in project management"
+    },
+    {
+      "id": 8,
+      "name": "Blockchain Developer Program",
+      "description": "6-month program on blockchain technology and development.",
+      "package": "Certification upon completion",
+      "requirements": "Basic knowledge of programming"
+    },
+    {
+      "id": 9,
+      "name": "Cloud Computing Course",
+      "description": "Course on cloud services and architecture.",
+      "package": "Certification upon completion",
+      "requirements": "Basic knowledge of IT infrastructure"
+    },
+    {
+      "id": 10,
+      "name": "Game Development Program",
+      "description": "4-month program on game design and development.",
+      "package": "Certification upon completion",
+      "requirements": "Interest in game development"
+    }
+  ]
+  

@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "name": "Project Manager",
+      "description": "Manage software development projects.",
+      "package": "$90,000",
+      "requirements": "Experience in project management"
+    },
+    {
+      "id": 2,
+      "name": "Content Writer",
+      "description": "Create and manage content for various platforms.",
+      "package": "$55,000",
+      "requirements": "Experience in content writing"
+    },
+    {
+      "id": 3,
+      "name": "Graphic Designer",
+      "description": "Design graphics and visuals for marketing materials.",
+      "package": "$70,000",
+      "requirements": "Experience with design tools like Adobe Illustrator"
+    },
+    {
+      "id": 4,
+      "name": "Business Analyst",
+      "description": "Analyze business processes and suggest improvements.",
+      "package": "$80,000",
+      "requirements": "Experience in business analysis"
+    },
+    {
+      "id": 5,
+      "name": "IT Support Specialist",
+      "description": "Provide technical support and resolve IT issues.",
+      "package": "$60,000",
+      "requirements": "Experience in IT support"
+    },
+    {
+      "id": 6,
+      "name": "Mobile App Developer",
+      "description": "Develop mobile applications for iOS and Android.",
+      "package": "$100,000",
+      "requirements": "Experience in mobile app development"
+    },
+    {
+      "id": 7,
+      "name": "SEO Specialist",
+      "description": "Optimize websites for search engines to increase traffic.",
+      "package": "$65,000",
+      "requirements": "Experience in SEO"
+    },
+    {
+      "id": 8,
+      "name": "Operations Manager",
+      "description": "Oversee daily operations and ensure efficiency.",
+      "package": "$95,000",
+      "requirements": "Experience in operations management"
+    },
+    {
+      "id": 9,
+      "name": "Finance Manager",
+      "description": "Manage financial planning and analysis.",
+      "package": "$110,000",
+      "requirements": "Experience in finance management"
+    },
+    {
+      "id": 10,
+      "name": "HR Specialist",
+      "description": "Manage recruitment and employee relations.",
+      "package": "$75,000",
+      "requirements": "Experience in HR management"
+    }
+  ]
+  
