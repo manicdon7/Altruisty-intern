@@ -69,7 +69,7 @@ const Landing = () => {
           <button className='uppercase bg-[#032d60] px-6 py-3 rounded-2xl my-5 text-white font-semibold text-xl font-sans transition transform hover:scale-105 hover:text-[#eaf5fe] mx-5 xl:mx-0'>Post Job</button>
         </div>
       </section>
-      <section className='flex space-x-4 justify-center my-6'>
+      <section className='flex space-x-4 justify-center my-6' id='jobSearch'>
         <div className="relative w-80 border-2 rounded-full ml-10 bg-[#b7d4ff] hidden md:block">
           <input
             type="text"

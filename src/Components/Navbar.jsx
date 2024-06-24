@@ -21,13 +21,13 @@ const Navbar = () => {
                             <a href="/">Home</a>
                         </li>
                         <li className="p-4 border-b-2 border-[#032d60] border-opacity-0 hover:border-opacity-100 hover:text-blue-900 duration-200 cursor-pointer">
-                            <a href="">Internships</a>
+                            <a href="#jobSearch">Job Search</a>
                         </li>
                         <li className="p-4 border-b-2 border-[#032d60] border-opacity-0 hover:border-opacity-100 hover:text-blue-900 duration-200 cursor-pointer">
-                            <a href="">Jobs</a>
+                            <a href="#companies">Top Companies</a>
                         </li>
                         <li className="p-4 border-b-2 border-[#032d60] border-opacity-0 hover:border-opacity-100 hover:text-blue-900 duration-200 cursor-pointer">
-                            <a href="">Programs</a>
+                            <a href="#updates">Job Updates</a>
                         </li>
                     </ul>
                 </nav>

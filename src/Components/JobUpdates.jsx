@@ -9,7 +9,7 @@ const JobUpdates = () => {
   }, []);
 
   return (
-    <div className="container mx-auto my-8 px-4">
+    <div className="container mx-auto my-8 px-4" id='updates'>
       <h1 className="font-semibold font-sans text-4xl mb-8 text-center">Recommended Job Updates</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {jobs.map((job) => (

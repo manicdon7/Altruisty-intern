@@ -12,7 +12,7 @@ const Jobcards = () => {
   ];
 
   return (
-    <div className='mx-10 my-10'>
+    <div className='mx-10 my-10' id='companies'>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
           <h1 className='font-semibold font-sans text-3xl mb-4'>Job Domains</h1>
@@ -29,7 +29,7 @@ const Jobcards = () => {
           <div className="grid grid-cols-2 gap-4">
             {topCompanies.map((company, index) => (
               <div key={index} className="bg-white border border-gray-200 p-4 rounded-lg shadow-md hover:shadow-lg transition duration-300">
-                <p className="text-lg font-medium text-gray-800">{company}</p>
+                <a href='/' className="text-lg font-medium text-gray-800">{company}</a>
               </div>
             ))}
           </div>
