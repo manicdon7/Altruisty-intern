@@ -17,16 +17,16 @@ const Navbar = () => {
                 </h1>
                 <nav className={`nav font-semibold text-lg ${isOpen ? 'block' : 'hidden'} xl:flex transition-transform duration-300 ease-in-out transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} xl:translate-x-0`}>
                     <ul className="flex flex-col xl:flex-row items-center absolute xl:relative top-16 right-0 xl:top-0 xl:right-auto bg-white shadow-lg xl:shadow-none xl:bg-transparent w-full xl:w-auto space-y-4 xl:space-y-0">
-                        <li className="p-4 border-b-2 border-green-500 border-opacity-0 hover:border-opacity-100 hover:text-green-500 duration-200 cursor-pointer">
+                        <li className="p-4 border-b-2 border-[#032d60] border-opacity-0 hover:border-opacity-100 hover:text-blue-900 duration-200 cursor-pointer">
                             <a href="/">Home</a>
                         </li>
-                        <li className="p-4 border-b-2 border-green-500 border-opacity-0 hover:border-opacity-100 hover:text-green-500 duration-200 cursor-pointer">
+                        <li className="p-4 border-b-2 border-[#032d60] border-opacity-0 hover:border-opacity-100 hover:text-blue-900 duration-200 cursor-pointer">
                             <a href="">Internships</a>
                         </li>
-                        <li className="p-4 border-b-2 border-green-500 border-opacity-0 hover:border-opacity-100 hover:text-green-500 duration-200 cursor-pointer">
+                        <li className="p-4 border-b-2 border-[#032d60] border-opacity-0 hover:border-opacity-100 hover:text-blue-900 duration-200 cursor-pointer">
                             <a href="">Jobs</a>
                         </li>
-                        <li className="p-4 border-b-2 border-green-500 border-opacity-0 hover:border-opacity-100 hover:text-green-500 duration-200 cursor-pointer">
+                        <li className="p-4 border-b-2 border-[#032d60] border-opacity-0 hover:border-opacity-100 hover:text-blue-900 duration-200 cursor-pointer">
                             <a href="">Programs</a>
                         </li>
                     </ul>

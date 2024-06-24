@@ -23,7 +23,7 @@ const JobUpdates = () => {
               <p className="text-gray-500 mb-2"><strong>State:</strong> {job.state}</p>
               <p className="text-gray-600 mb-4">{job.introduction}</p>
               <p className="text-gray-600 mb-4">{job.description.slice(0, 100)}...</p>
-              <button className="py-2 px-4 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition-colors duration-300">
+              <button className="py-2 px-4 bg-[#032d60] text-white rounded-full hover:bg-blue-900 transition-colors duration-300">
                 Read More
               </button>
               <button className="ml-2 py-2 px-4 bg-[#ce4d2f] text-white rounded-full hover:bg-orange-600 transition-colors duration-300">
