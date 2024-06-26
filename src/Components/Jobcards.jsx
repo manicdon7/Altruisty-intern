@@ -18,7 +18,7 @@ const Jobcards = () => {
           <h1 className='font-semibold font-sans text-3xl mb-4'>Job Domains</h1>
           <div className="flex flex-wrap gap-4">
             {domains.map((domain, index) => (
-              <button key={index} className="text-xl font-normal px-6 py-3 bg-orange-400 rounded-full text-white hover:bg-orange-500 transition-colors duration-300">
+              <button key={index} className="text-xl font-normal px-6 py-3 bg-[#032d60] rounded-full text-white hover:bg-orange-500 transition-colors duration-300">
                 {domain}
               </button>
             ))}
