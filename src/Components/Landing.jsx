@@ -8,6 +8,7 @@ import internships from '../json/internships.json';
 import jobs from '../json/jobs.json';
 import programs from '../json/programs.json';
 import rescents from '../json/recents.json';
+
 import { useNavigate } from 'react-router-dom';
 
 const Landing = () => {
