@@ -222,8 +222,6 @@ const ResumeBuilderModal = ({ isOpen, onClose, resumeData }) => {
     doc.setFontSize(12);
     const personalDetailsLines = doc.splitTextToSize(data.personalDetails, contentWidth);
     personalDetailsLines.forEach(line => addText(line));
-  
-    // Social Media Links
     doc.setFontSize(14);
     addText('Social Media Links', true);
   

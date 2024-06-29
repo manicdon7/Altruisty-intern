@@ -8,6 +8,7 @@ import internships from '../json/internships.json';
 import jobs from '../json/jobs.json';
 import programs from '../json/programs.json';
 import rescents from '../json/recents.json';
+import { useNavigate } from 'react-router-dom';
 
 const Landing = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -15,6 +16,7 @@ const Landing = () => {
   const [filteredJobs, setFilteredJobs] = useState([]);
   const [combinedData, setCombinedData] = useState([]);
   const [isSearched, setIsSearched] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     // Combine all job-related data into one array
@@ -48,9 +50,9 @@ const Landing = () => {
     <div>
       <div className='grid xl:grid-cols-2 grid-cols-1 xl:mx-10'>
         <div className='w-11/12 xl:mx-28 space-y-4'>
-          <h1 className='capitalize xl:mt-28 mt-10 font-sans xl:text-6xl text-4xl font-semibold mx-5 xl:mx-0'>Finding Your Next Jobs</h1>
-          <h1 className='font-sans text-lg mx-5 xl:mx-0'>"Finding Your Next Jobs" is your go-to resource for discovering new career opportunities. Explore a diverse range of job listings tailored to your skills and aspirations. Stay ahead in your career journey with expert advice and up-to-date industry insights.</h1>
-          <button className='bg-[#ce4d2f] px-6 py-3 rounded-2xl my-5 text-white font-semibold text-xl font-sans transition transform hover:scale-105 hover:text-[#eaf5fe] mx-5 xl:mx-0'>Explore Jobs</button>
+          <h1 className='capitalize xl:mt-28 mt-10 font-times xl:text-6xl text-4xl font-semibold mx-5 xl:mx-0'>Finding Your Next Jobs</h1>
+          <h1 className='font-times text-lg mx-5 xl:mx-0'>"Finding Your Next Jobs" is your go-to resource for discovering new career opportunities. Explore a diverse range of job listings tailored to your skills and aspirations. Stay ahead in your career journey with expert advice and up-to-date industry insights.</h1>
+          <button className='bg-[#ce4d2f] px-6 py-3 rounded-2xl my-5 text-white font-semibold text-xl font-times transition transform hover:scale-105 hover:text-[#eaf5fe] mx-5 xl:mx-0'>Explore Jobs</button>
         </div>
         <div className='flex justify-center'>
           <img src={heroimg} alt="heroimg" className='h-96 w-96' />
@@ -59,14 +61,14 @@ const Landing = () => {
       <section className='flex space-x-10 justify-center my-6'>
         <div>
           <button
-            className='uppercase bg-[#032d60] px-6 py-3 rounded-2xl my-5 text-white font-semibold text-xl font-sans transition transform hover:scale-105 hover:text-[#eaf5fe] mx-5 xl:mx-0'
+            className='uppercase bg-[#032d60] px-6 py-3 rounded-2xl my-5 text-white font-semibold text-xl font-times transition transform hover:scale-105 hover:text-[#eaf5fe] mx-5 xl:mx-0'
             onClick={() => setIsModalOpen(true)}
           >
             Upload Resume
           </button>
         </div>
         <div>
-          <button className='uppercase bg-[#032d60] px-6 py-3 rounded-2xl my-5 text-white font-semibold text-xl font-sans transition transform hover:scale-105 hover:text-[#eaf5fe] mx-5 xl:mx-0'>Post Job</button>
+          <button className='uppercase bg-[#032d60] px-6 py-3 rounded-2xl my-5 text-white font-semibold text-xl font-times transition transform hover:scale-105 hover:text-[#eaf5fe] mx-5 xl:mx-0' onClick={()=> navigate('/postjob')} >Post Job</button>
         </div>
       </section>
       <section className='flex space-x-4 justify-center my-6' id='jobSearch'>
@@ -77,13 +79,13 @@ const Landing = () => {
             value={searchQuery}
             onChange={handleSearch}
             required
-            className="w-full px-10 py-2 rounded-full bg-gray-50"
+            className="w-full px-10 py-2 rounded-full bg-gray-50 font-times"
           />
           <FiSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-lg text-gray-600" />
         </div>
         <div>
           <button
-            className='uppercase bg-[#032d60] px-3 py-1 rounded-2xl my-1 text-white font-semibold text-xl font-sans transition transform hover:scale-105 hover:text-[#eaf5fe] mx-5 xl:mx-0'
+            className='uppercase bg-[#032d60] px-3 py-1 rounded-2xl my-1 text-white font-semibold text-xl font-times transition transform hover:scale-105 hover:text-[#eaf5fe] mx-5 xl:mx-0'
             onClick={handleSearchClick}
           >
             Search

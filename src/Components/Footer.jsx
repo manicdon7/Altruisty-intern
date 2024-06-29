@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube } from 're
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-900 text-white py-8">
+    <footer className="bg-[#032d60] text-white py-8 font-times">
       <div className="mx-40 px-4">
         <div className="grid grid-cols-3 md:flex-row justify-between">
           <div className="mb-6 md:mb-0">
