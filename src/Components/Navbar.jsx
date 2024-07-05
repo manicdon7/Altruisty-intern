@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../assets/Altruist-logo.png';
+import { motion } from 'framer-motion';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -10,14 +11,19 @@ const Navbar = () => {
 
     return (
         <div>
-            <header className="header sticky top-0 bg-white shadow-md flex items-center justify-between px-8 py-2">
+            <header className="header sticky top-0 bg-white shadow-md flex items-center justify-between px-8 py-2 z-50">
                 <h1 className="w-3/12">
                     <a href="">
                         <img src={logo} alt="logo" className='h-12 w-32' />
                     </a>
                 </h1>
-                <nav className={`nav font-semibold text-lg ${isOpen ? 'block' : 'hidden'} xl:flex transition-transform duration-300 ease-in-out transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} xl:translate-x-0`}>
-                    <ul className="flex flex-col xl:flex-row items-center absolute xl:relative top-16 right-0 xl:top-0 xl:right-auto bg-white shadow-lg xl:shadow-none xl:bg-transparent w-full xl:w-auto space-y-4 xl:space-y-0">
+                <motion.nav
+                    initial={{ opacity: 0, x: '100%' }}
+                    animate={isOpen ? { opacity: 1, x: 0 } : { opacity: 0, x: '100%' }}
+                    transition={{ duration: 0.3 }}
+                    className={`nav font-semibold text-lg ${isOpen ? 'block' : 'hidden'} xl:flex xl:items-center absolute xl:relative top-16 xl:top-0 right-0 xl:right-auto bg-white xl:bg-transparent shadow-lg xl:shadow-none w-full xl:w-auto space-y-4 xl:space-y-0`}
+                >
+                    <ul className="flex flex-col xl:flex-row items-center w-full xl:w-auto space-y-4 xl:space-y-0">
                         <li className="p-4 border-b-2 border-[#032d60] border-opacity-0 hover:border-opacity-100 hover:text-blue-900 duration-200 cursor-pointer font-times">
                             <a href="/">Home</a>
                         </li>
@@ -31,7 +37,7 @@ const Navbar = () => {
                             <a href="#updates">Job Updates</a>
                         </li>
                     </ul>
-                </nav>
+                </motion.nav>
                 <div className="w-3/12 flex justify-end items-center space-x-3">
                     <a href="">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50" className='h-8 w-8 mt-2'>
@@ -41,7 +47,7 @@ const Navbar = () => {
                     <a href="">
                         <img className="m-3" width="26" height="26" src="https://img.icons8.com/metro/26/gender-neutral-user.png" alt="gender-neutral-user" />
                     </a>
-                    <div className="block xl:hidden ">
+                    <div className="block xl:hidden">
                         <button onClick={toggleMenu} className="text-black focus:outline-none">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 mx-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"} />
@@ -50,10 +56,16 @@ const Navbar = () => {
                     </div>
                 </div>
             </header>
+            {isOpen && (
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 0.3 }}
+                    className="fixed inset-0 bg-gray-100 bg-opacity-70 z-40"
+                />
+            )}
         </div>
     );
 };
 
 export default Navbar;
-
-

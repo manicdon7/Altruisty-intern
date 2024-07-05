@@ -49,7 +49,7 @@ const Landing = () => {
 
   return (
     <div>
-      <div className='grid xl:grid-cols-2 grid-cols-1 xl:mx-10'>
+      <div className='grid xl:grid-cols-2 grid-cols-1 xl:mx-10 overflow-x-hidden'>
         <div className='w-11/12 xl:mx-28 space-y-4'>
           <h1 className='capitalize xl:mt-28 mt-10 font-times xl:text-6xl text-4xl font-semibold mx-5 xl:mx-0'>Finding Your Next Jobs</h1>
           <h1 className='font-times text-lg mx-5 xl:mx-0'>"Finding Your Next Jobs" is your go-to resource for discovering new career opportunities. Explore a diverse range of job listings tailored to your skills and aspirations. Stay ahead in your career journey with expert advice and up-to-date industry insights.</h1>

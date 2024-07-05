@@ -78,10 +78,9 @@ app.post('/api/postData', async (req, res) => {
     }
 });
 
-// Fetch posts based on category (type)
 app.get('/api/posts/', async (req, res) => {
     try {
-        const posts = await Job.find(); // Fetch posts based on category (type)
+        const posts = await Job.find();
         res.json(posts);
     } catch (error) {
         console.error('Error fetching job posts:', error);

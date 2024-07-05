@@ -4,8 +4,8 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube } from 're
 const Footer = () => {
   return (
     <footer className="bg-[#032d60] text-white py-8 font-times">
-      <div className="mx-40 px-4">
-        <div className="grid grid-cols-3 md:flex-row justify-between">
+      <div className="lg:mx-40 mx-10 px-4">
+        <div className="grid lg:grid-cols-3 grid-cols-1 md:flex-row justify-between">
           <div className="mb-6 md:mb-0">
             <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
             <ul>

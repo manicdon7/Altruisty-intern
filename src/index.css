@@ -19,3 +19,27 @@ code {
 html {
   scroll-behavior: smooth;
 }
+
+.rays {
+  background-color: #ffffff; /* Fallback background color */
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(39, 71, 249, 0.8) 10%, 
+      rgba(93, 93, 249, 0.4) 50%,
+      rgba(110, 127, 255, 0.8) 90%
+  );
+  background-size: 200% 200%; /* Start background size for animation */
+  animation: rays 10s ease-in-out infinite; /* Animation properties */
+}
+
+@keyframes rays {
+  0% {
+      background-position: 0 0; /* Start position for background */
+  }
+  50% {
+      background-position: 100% 100%; /* Middle position for background */
+  }
+  100% {
+      background-position: 0 0; /* End position for background */
+  }
+}
